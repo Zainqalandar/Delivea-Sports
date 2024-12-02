@@ -13,20 +13,9 @@ const AboutUs = () => {
 								About Us
 							</h2>
 							<p className="mt-4 text-gray-600 text-lg">
-								Bappa flour mill provides our customers with the
-								highest quality products and services. We offer
-								a wide variety of flours and spices to choose
-								from, and we are always happy to help our
-								customers find the perfect products for their
-								needs. We are committed to providing our
-								customers with the best possible experience. We
-								offer competitive prices, fast shipping, and
-								excellent customer service. We are also happy to
-								answer any questions that our customers may have
-								about our products or services. If you are
-								looking for a flour and spices service business
-								that can provide you with the highest quality
-								products and services, then we are the company
+							Welcome to Delivea Sports, your trusted partner in premium custom boxing gear and sportswear. We specialize in crafting high-quality products tailored to your unique needs and designs. From professional boxing gloves with custom logos to complete sports uniforms, we transform your dream ideas into reality. Our expertise lies in delivering durable leather products, stylish boxing apparel, and bespoke uniforms that combine functionality with exceptional craftsmanship.
+
+At Delivea Sports, we pride ourselves on offering comprehensive solutions to meet all your requirements. Whether you need custom cuts and sewing, personalized branding, or specialized printing, we ensure precision and quality at every step. Our advanced printing techniques, including embroidery, screen printing, DTF, DGT, puff printing, and puff embroidery, bring your designs to life with vibrant detail. We also provide packaging and labeling services to enhance your brand's presentation.the company
 								for you. We look forward to serving you!
 							</p>
 						</div>

@@ -27,7 +27,7 @@ const OurLocation = () => {
 										</h3>
 										<p className="mt-1 font-bold text-gray-600">
 											<a href="tel:+123">
-												Phone: +91 123456789
+												Phone: +92-3007153684
 											</a>
 										</p>
 										<a
@@ -61,7 +61,7 @@ const OurLocation = () => {
 											Our Address
 										</h3>
 										<p className="mt-1 text-gray-600">
-											Sale galli, 60 foot road, Latur
+											Sialkot سیالکوٹ
 										</p>
 									</div>
 									<div className="border-t border-gray-200 px-6 py-4">
@@ -76,8 +76,7 @@ const OurLocation = () => {
 							</div>
 							<div className="rounded-lg overflow-hidden order-none sm:order-first">
 								<iframe
-									src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3785.7850672491236!2d76.58802159999999!3d18.402630699999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcf83ca88e84341%3A0x841e547bf3ad066d!2zQmFwcGEgZmxvdXIgbWlsbCB8IOCkrOCkquCljeCkquCkviDgpKrgpYDgpKAg4KSX4KS_4KSw4KSj4KWALCDgpK7gpL_gpLDgpJrgpYAg4KSV4KS-4KSC4KSh4KSqIOCkhuCko-CkvyDgpLbgpYfgpLXgpL7gpK_gpL4!5e0!3m2!1sen!2sin!4v1713433597892!5m2!1sen!2sin"
-									className="w-full"
+									src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d215398.50846701756!2d74.4001478043971!3d32.483343753648896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391eea5674db6cfd%3A0xa8d03983946d4744!2sSialkot%2C%20Punjab%2C%20Pakistan!5e0!3m2!1sen!2s!4v1733114584320!5m2!1sen!2s"
 									width={600}
 									height={450}
 									style={{ border: 0 }}
