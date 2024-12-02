@@ -13,10 +13,28 @@ const AboutUs = () => {
 								About Us
 							</h2>
 							<p className="mt-4 text-gray-600 text-lg">
-							Welcome to Delivea Sports, your trusted partner in premium custom boxing gear and sportswear. We specialize in crafting high-quality products tailored to your unique needs and designs. From professional boxing gloves with custom logos to complete sports uniforms, we transform your dream ideas into reality. Our expertise lies in delivering durable leather products, stylish boxing apparel, and bespoke uniforms that combine functionality with exceptional craftsmanship.
-
-At Delivea Sports, we pride ourselves on offering comprehensive solutions to meet all your requirements. Whether you need custom cuts and sewing, personalized branding, or specialized printing, we ensure precision and quality at every step. Our advanced printing techniques, including embroidery, screen printing, DTF, DGT, puff printing, and puff embroidery, bring your designs to life with vibrant detail. We also provide packaging and labeling services to enhance your brand's presentation.the company
-								for you. We look forward to serving you!
+								Welcome to Delivea Sports, your trusted partner
+								in premium custom boxing gear and sportswear. We
+								specialize in crafting high-quality products
+								tailored to your unique needs and designs. From
+								professional boxing gloves with custom logos to
+								complete sports uniforms, we transform your
+								dream ideas into reality. Our expertise lies in
+								delivering durable leather products, stylish
+								boxing apparel, and bespoke uniforms that
+								combine functionality with exceptional
+								craftsmanship. At Delivea Sports, we pride
+								ourselves on offering comprehensive solutions to
+								meet all your requirements. Whether you need
+								custom cuts and sewing, personalized branding,
+								or specialized printing, we ensure precision and
+								quality at every step. Our advanced printing
+								techniques, including embroidery, screen
+								printing, DTF, DGT, puff printing, and puff
+								embroidery, bring your designs to life with
+								vibrant detail. We also provide packaging and
+								labeling services to enhance your brand&apos;s
+								presentation. We look forward to serving you!
 							</p>
 						</div>
 						<div className="mt-12 md:mt-0">
