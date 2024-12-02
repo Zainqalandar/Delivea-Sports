@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 const OurServices = () => {
 	return (
@@ -12,9 +13,11 @@ const OurServices = () => {
 						</h2>
 						<div className="grid grid-cols-1 md:grid-cols-3 gap-8">
 							<div className="bg-white rounded-lg shadow-md overflow-hidden">
-								<img
+								<Image
 									src="https://image3.jdomni.in/banner/13062021/42/5C/B1/45AC18B7F8EE562BC3DDB95D34_1623559815667.png?output-format=webp"
 									alt="wheat flour grinding"
+									width={500}
+									height={256}
 									className="w-full h-64 object-cover"
 								/>
 								<div className="p-6 text-center">
@@ -33,9 +36,11 @@ const OurServices = () => {
 								</div>
 							</div>
 							<div className="bg-white rounded-lg shadow-md overflow-hidden">
-								<img
+								<Image
 									src="https://images.unsplash.com/photo-1606854428728-5fe3eea23475?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Z3JhbSUyMGZsb3VyfGVufDB8fDB8fHww"
 									alt="Coffee"
+									width={600}
+									height={256}
 									className="w-full h-64 object-cover"
 								/>
 								<div className="p-6 text-center">
@@ -54,9 +59,11 @@ const OurServices = () => {
 								</div>
 							</div>
 							<div className="bg-white rounded-lg shadow-md overflow-hidden">
-								<img
+								<Image
 									src="https://image2.jdomni.in/banner/13062021/D2/99/0D/48D7F4AFC48C041DC8D80432E9_1623562146900.png?output-format=webp"
 									alt="Coffee"
+									width={600}
+									height={256}
 									className="w-full h-64 object-cover"
 								/>
 								<div className="p-6 text-center">
@@ -84,9 +91,11 @@ const OurServices = () => {
 								</div>
 							</div>
 							<div className="bg-white rounded-lg shadow-md overflow-hidden">
-								<img
+								<Image
 									src="https://images.unsplash.com/photo-1607672632458-9eb56696346b?q=80&w=1914&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 									alt="Coffee"
+									width={1914}
+									height={256}
 									className="w-full h-64 object-cover"
 								/>
 								<div className="p-6 text-center">
@@ -120,9 +129,11 @@ const OurServices = () => {
 								<div className="text-center text-white font-medium">
 									Special product
 								</div>
-								<img
+								<Image
 									src="https://images.unsplash.com/photo-1556910110-a5a63dfd393c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cmF3JTIwc3BhZ2hldHRpfGVufDB8fDB8fHww"
 									alt="Coffee"
+									width={600}
+									height={256}
 									className="w-full h-64 object-cover rounded-t-lg"
 								/>
 								<div className="p-6 bg-white text-center rounded-b-lg md:min-h-full">

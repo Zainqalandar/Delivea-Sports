@@ -1,18 +1,23 @@
 import React from 'react';
+import Image from 'next/image';
 
 const DeliveaLogo = () => {
 	return (
 		<div className="shrink-0">
 			<a href="#" title="" className="">
-				<img
+				<Image
 					className="block w-auto h-8 dark:hidden"
 					src="/logo/delivea-logo3.png"
-					alt=""
+					alt="Delivea Logo"
+					width={32}
+					height={32}
 				/>
-				<img
+				<Image
 					className="hidden w-auto h-8 dark:block"
 					src="/logo/delivea-logo3.png"
-					alt=""
+					alt="Delivea Logo"
+					width={32}
+					height={32}
 				/>
 			</a>
 		</div>

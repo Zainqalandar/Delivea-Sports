@@ -1,12 +1,15 @@
 import React from 'react';
+import Image from 'next/image';
 
 const CenterBanner = () => {
     return (
         <div className="relative w-full h-72 md:h-96 lg:h-128 bg-gray-200 flex items-center justify-center">
-            <img
+            <Image
                 src="/banner-images/t3.jpg"
                 alt="Banner"
-                className="absolute inset-0 w-full h-full object-cover"
+                layout="fill"
+                objectFit="cover"
+                className="absolute inset-0"
             />
             <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
                 <div className="text-center text-white p-4">

@@ -261,7 +261,7 @@ const MyCart = () => {
 							href="#"
 							className="truncate text-sm font-semibold leading-none text-gray-900 dark:text-white hover:underline"
 						>
-							Apple iMac 20"
+							Apple iMac 20&quot;
 						</a>
 						<p className="mt-0.5 truncate text-sm font-normal text-gray-500 dark:text-gray-400">
 							$8,997
