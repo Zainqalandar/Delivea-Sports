@@ -1,6 +1,6 @@
 'use client';
 import React from 'react';
-import Slider from 'react-slick';
+// import Slider from 'react-slick';
 // import "slick-carousel/slick/slick.css";
 // import "slick-carousel/slick/slick-theme.css";
 
@@ -17,7 +17,8 @@ const HeroSection = () => {
     };
 
     return (
-        <div className="slider-container relative w-full">
+        <>
+        {/* <div className="slider-container relative w-full">
             <Slider {...settings}>
                 <div className="relative h-56 md:h-96">
                     <img
@@ -55,7 +56,8 @@ const HeroSection = () => {
                     </div>
                 </div>
             </Slider>
-        </div>
+        </div> */}
+        </>
     );
 };
 
