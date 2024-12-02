@@ -6,12 +6,12 @@ const DeliveaLogo = () => {
 			<a href="#" title="" className="">
 				<img
 					className="block w-auto h-8 dark:hidden"
-					src="/logo/delivea-logo.png"
+					src="/logo/delivea-logo3.png"
 					alt=""
 				/>
 				<img
 					className="hidden w-auto h-8 dark:block"
-					src="/logo/delivea-logo.png"
+					src="/logo/delivea-logo3.png"
 					alt=""
 				/>
 			</a>

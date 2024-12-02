@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 const AboutUs = () => {
 	return (
@@ -30,9 +31,11 @@ const AboutUs = () => {
 							</p>
 						</div>
 						<div className="mt-12 md:mt-0">
-							<img
+							<Image
 								src="https://images.unsplash.com/photo-1531973576160-7125cd663d86"
 								alt="About Us Image"
+								width={500}
+								height={500}
 								className="object-cover rounded-lg shadow-md"
 							/>
 						</div>

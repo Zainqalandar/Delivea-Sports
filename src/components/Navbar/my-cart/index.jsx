@@ -5,8 +5,8 @@ const MyCart = () => {
 
     let openCartDropdown = () => {
         console.log('Open cart dropdown');
-        let dropdown = document.getElementById('myCartDropdown1');
-        dropdown.classList.toggle('hidden');
+        // let dropdown = document.getElementById('myCartDropdown1');
+        // dropdown.classList.toggle('hidden');
 
     }
 	return (
