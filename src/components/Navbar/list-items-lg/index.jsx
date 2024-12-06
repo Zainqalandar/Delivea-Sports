@@ -1,8 +1,8 @@
 import React from 'react';
 
 const menuItems = [
-	{ title: 'Home', href: '#' },
-	{ title: 'Best Sellers', href: '#' },
+	{ title: 'Home', href: '/' },
+	{ title: 'Best Sellers', href: '/best_sellers' },	
 	{ title: 'Gift Ideas', href: '#' },
 	{ title: "Today's Deals", href: '#' },
 	{ title: 'Sell', href: '#' },

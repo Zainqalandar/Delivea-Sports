@@ -32,7 +32,7 @@ const OurLocation = () => {
 										</p>
 										<a
 											className="flex m-1"
-											href="tel:+919823331842"
+											href="tel:+923007153684"
 										>
 											<div className="flex-shrink-0">
 												<div className="flex items-center justify-between h-10 w-30 rounded-md bg-indigo-500 text-white p-2">

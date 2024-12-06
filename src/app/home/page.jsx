@@ -1,8 +1,6 @@
 import AboutUs from '@/components/about-us';
-import Banner from '@/components/Banner';
 import Footer from '@/components/footer';
 import HeroSection from '@/components/hero-section';
-import Navbar from '@/components/Navbar';
 // import MultipleItems from '@/components/new-products';
 import OurLocation from '@/components/our-location';
 import OurServices from '@/components/our-services/page';
@@ -13,8 +11,7 @@ const DelvieaSports = () => {
 	return (
 		<>
 
-			<Banner />
-            <Navbar />
+			
             <HeroSection />
             {/* <MultipleItems /> */}
 			<OurServices />

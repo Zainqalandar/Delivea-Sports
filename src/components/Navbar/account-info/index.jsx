@@ -2,16 +2,14 @@
 import React from 'react';
 
 const AcccountInfo = () => {
-    let openAccountDropdown = () => {
-        const dropdown = document.getElementById('userDropdown1');
-        dropdown.classList.toggle('hidden');
-
-
-    }
+	let openAccountDropdown = () => {
+		const dropdown = document.getElementById('userDropdown1');
+		dropdown.classList.toggle('hidden');
+	};
 	return (
 		<>
 			<button
-            onClick={openAccountDropdown}
+				onClick={openAccountDropdown}
 				id="userDropdownButton1"
 				data-dropdown-toggle="userDropdown1"
 				type="button"
@@ -128,31 +126,7 @@ const AcccountInfo = () => {
 					</a>
 				</div>
 			</div>
-			<button
-				type="button"
-				data-collapse-toggle="ecommerce-navbar-menu-1"
-				aria-controls="ecommerce-navbar-menu-1"
-				aria-expanded="false"
-				className="inline-flex lg:hidden items-center justify-center hover:bg-gray-100 rounded-md dark:hover:bg-gray-700 p-2 text-gray-900 dark:text-white"
-			>
-				<span className="sr-only">Open Menu</span>
-				<svg
-					className="w-5 h-5"
-					aria-hidden="true"
-					xmlns="http://www.w3.org/2000/svg"
-					width={24}
-					height={24}
-					fill="none"
-					viewBox="0 0 24 24"
-				>
-					<path
-						stroke="currentColor"
-						strokeLinecap="round"
-						strokeWidth={2}
-						d="M5 7h14M5 12h14M5 17h14"
-					/>
-				</svg>
-			</button>
+			
 		</>
 	);
 };
