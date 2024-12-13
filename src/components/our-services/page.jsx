@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import './OurServices.css'; // Import the CSS file
 
 const services = [
     {
@@ -55,7 +56,8 @@ const OurServices = () => {
                     {services.map((service, index) => (
                         <div
                             key={index}
-                            className={`bg-white rounded-lg shadow-md overflow-hidden ${service.special ? 'bg-gradient-to-tr from-pink-300 to-blue-300 p-0.5' : ''}`}
+                            className={`bg-white rounded-lg shadow-md overflow-hidden service-card ${service.special ? 'bg-gradient-to-tr from-pink-300 to-blue-300 p-0.5' : ''}`}
+                            style={{ animationDelay: `${index * 0.2}s` }}
                         >
                             {service.special && (
                                 <div className="text-center text-white font-medium">
