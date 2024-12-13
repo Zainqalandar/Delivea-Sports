@@ -1,5 +1,7 @@
+'use client'
 import React from 'react';
 import Image from 'next/image';
+import { motion } from 'framer-motion';
 
 const services = [
     {
@@ -53,9 +55,12 @@ const OurServices = () => {
                 </h2>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                     {services.map((service, index) => (
-                        <div
+                        <motion.div
                             key={index}
                             className={`bg-white rounded-lg shadow-md overflow-hidden ${service.special ? 'bg-gradient-to-tr from-pink-300 to-blue-300 p-0.5' : ''}`}
+                            initial={{ opacity: 0, y: 50 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            transition={{ duration: 0.5, delay: index * 0.2 }}
                         >
                             {service.special && (
                                 <div className="text-center text-white font-medium">
@@ -83,7 +88,7 @@ const OurServices = () => {
                                     </details>
                                 )}
                             </div>
-                        </div>
+                        </motion.div>
                     ))}
                 </div>
             </div>
