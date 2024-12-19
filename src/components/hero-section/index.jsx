@@ -50,25 +50,12 @@ const HeroSection = () => {
                         data-carousel-item=""
                     >
                         <Image
-                            src="/banner-images/t3.jpg"
+                            src="/banner-images/delivia-banner-new.png"
                             alt="Banner"
                             layout="fill"
                             objectFit="cover"
                             className="absolute inset-0"
                         />
-                        <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
-                            <div className="text-center text-white p-4">
-                                <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold mb-4">
-                                    Welcome to Our Website
-                                </h1>
-                                <p className="text-lg md:text-xl lg:text-2xl">
-                                    We provide the best services to help you grow your business.
-                                </p>
-                                <button className="mt-4 px-6 py-2 bg-blue-500 hover:bg-blue-700 text-white font-semibold rounded">
-                                    Learn More
-                                </button>
-                            </div>
-                        </div>
                     </div>
                     {/* Item 2 */}
                     <div
@@ -82,19 +69,6 @@ const HeroSection = () => {
                             objectFit="cover"
                             className="absolute inset-0"
                         />
-                        <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
-                            <div className="text-center text-white p-4">
-                                <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold mb-4">
-                                    Welcome to Our Website
-                                </h1>
-                                <p className="text-lg md:text-xl lg:text-2xl">
-                                    We provide the best services to help you grow your business.
-                                </p>
-                                <button className="mt-4 px-6 py-2 bg-blue-500 hover:bg-blue-700 text-white font-semibold rounded">
-                                    Learn More
-                                </button>
-                            </div>
-                        </div>
                     </div>
                     {/* Item 3 */}
                     <div
@@ -108,19 +82,6 @@ const HeroSection = () => {
                             objectFit="cover"
                             className="absolute inset-0"
                         />
-                        <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
-                            <div className="text-center text-white p-4">
-                                <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold mb-4">
-                                    Welcome to Our Website
-                                </h1>
-                                <p className="text-lg md:text-xl lg:text-2xl">
-                                    We provide the best services to help you grow your business.
-                                </p>
-                                <button className="mt-4 px-6 py-2 bg-blue-500 hover:bg-blue-700 text-white font-semibold rounded">
-                                    Learn More
-                                </button>
-                            </div>
-                        </div>
                     </div>
                     {/* Item 4 */}
                     <div
@@ -134,19 +95,6 @@ const HeroSection = () => {
                             objectFit="cover"
                             className="absolute inset-0"
                         />
-                        <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
-                            <div className="text-center text-white p-4">
-                                <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold mb-4">
-                                    Welcome to Our Website
-                                </h1>
-                                <p className="text-lg md:text-xl lg:text-2xl">
-                                    We provide the best services to help you grow your business.
-                                </p>
-                                <button className="mt-4 px-6 py-2 bg-blue-500 hover:bg-blue-700 text-white font-semibold rounded">
-                                    Learn More
-                                </button>
-                            </div>
-                        </div>
                     </div>
                     {/* Item 5 */}
                     <div
@@ -160,58 +108,7 @@ const HeroSection = () => {
                             objectFit="cover"
                             className="absolute inset-0"
                         />
-                        <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
-                            <div className="text-center text-white p-4">
-                                <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold mb-4">
-                                    Welcome to Our Website
-                                </h1>
-                                <p className="text-lg md:text-xl lg:text-2xl">
-                                    We provide the best services to help you grow your business.
-                                </p>
-                                <button className="mt-4 px-6 py-2 bg-blue-500 hover:bg-blue-700 text-white font-semibold rounded">
-                                    Learn More
-                                </button>
-                            </div>
-                        </div>
                     </div>
-                </div>
-                {/* Slider indicators */}
-                <div className="absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse">
-                    <button
-                        type="button"
-                        className="w-3 h-3 rounded-full"
-                        aria-current="true"
-                        aria-label="Slide 1"
-                        data-carousel-slide-to={0}
-                    />
-                    <button
-                        type="button"
-                        className="w-3 h-3 rounded-full"
-                        aria-current="false"
-                        aria-label="Slide 2"
-                        data-carousel-slide-to={1}
-                    />
-                    <button
-                        type="button"
-                        className="w-3 h-3 rounded-full"
-                        aria-current="false"
-                        aria-label="Slide 3"
-                        data-carousel-slide-to={2}
-                    />
-                    <button
-                        type="button"
-                        className="w-3 h-3 rounded-full"
-                        aria-current="false"
-                        aria-label="Slide 4"
-                        data-carousel-slide-to={3}
-                    />
-                    <button
-                        type="button"
-                        className="w-3 h-3 rounded-full"
-                        aria-current="false"
-                        aria-label="Slide 5"
-                        data-carousel-slide-to={4}
-                    />
                 </div>
                 {/* Slider controls */}
                 <button

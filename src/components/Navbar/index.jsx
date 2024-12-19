@@ -18,7 +18,7 @@ const Navbar = () => {
 						<ListItemsLg />
 					</div>
 					<div className="flex relative items-center lg:space-x-2">
-						<MyCart />
+						{/* <MyCart /> */}
 						<AcccountInfo />
 						<button
                             onClick={() => setIsMenuOpen(!isMenuOpen)}

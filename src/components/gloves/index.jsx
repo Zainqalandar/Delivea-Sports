@@ -1,21 +1,29 @@
 import React from 'react';
 
-const Card = ({ imgSrc, isNew, readTime, title, description }) => (
-    <div className="bg-white rounded-xl shadow-md overflow-hidden">
-        <div className="relative">
-            <img className="w-full h-48 object-cover" src={imgSrc} />
-            {isNew && (
-                <div className="absolute top-0 right-0 bg-indigo-500 text-white font-bold px-2 py-1 m-2 rounded-md">
-                    New
-                </div>
-            )}
-            <div className="absolute bottom-0 right-0 bg-gray-800 text-white px-2 py-1 m-2 rounded-md text-xs">
-                {readTime}
+const Card = ({ imgSrc, isNew, title, description }) => (
+    <div className="relative bg-white border rounded-lg shadow-md transform transition duration-500 hover:scale-105">
+        {isNew && (
+            <div className="absolute top-3 right-3 rounded-full bg-violet-600 text-gray-200 w-6 h-6 text-center">
+                N
             </div>
+        )}
+        <div className="p-2 flex justify-center">
+            <a href="#">
+                <img className="rounded-md" src={imgSrc} loading="lazy" />
+            </a>
         </div>
-        <div className="p-4">
-            <div className="text-lg font-medium text-gray-800 mb-2">{title}</div>
-            <p className="text-gray-500 text-sm">{description}</p>
+        <div className="px-4 pb-3">
+            <div>
+                <a href="#">
+                    <h5 className="text-xl font-semibold tracking-tight hover:text-violet-800 text-gray-900">
+                        {title}
+                    </h5>
+                </a>
+                <p className="antialiased text-gray-600 text-sm break-all">
+                    {description}
+                </p>
+               
+            </div>
         </div>
     </div>
 );
@@ -23,93 +31,84 @@ const Card = ({ imgSrc, isNew, readTime, title, description }) => (
 const GlovesBox = () => {
     const cardsData = [
         {
-            imgSrc: 'https://via.placeholder.com/600x360',
+            imgSrc: '/t-shirts/1.png',
             isNew: true,
-            readTime: '3 min read',
             title: 'Exploring New Horizons',
             description:
                 'Discover how exploring new horizons can shape your perspective and broaden your understanding of the world around you.',
         },
         {
-            imgSrc: 'https://via.placeholder.com/600x360',
+            imgSrc: '/t-shirts/2.png',
             isNew: false,
-            readTime: '5 min read',
             title: 'The Art of Minimalism',
             description:
                 'Learn how adopting a minimalist lifestyle can simplify your life and bring more clarity and focus to your daily routines.',
         },
         {
-            imgSrc: 'https://via.placeholder.com/600x360',
+            imgSrc: '/t-shirts/3.png',
             isNew: true,
-            readTime: '2 min read',
             title: 'Quick Productivity Hacks',
             description:
                 'Boost your productivity instantly with these quick and effective hacks designed for busy individuals.',
         },
         {
-            imgSrc: 'https://via.placeholder.com/600x360',
+            imgSrc: '/t-shirts/4.png',
             isNew: false,
-            readTime: '4 min read',
             title: 'The Future of Technology',
             description:
                 'Dive into the emerging trends and innovations shaping the future of technology in various industries.',
         },
         {
-            imgSrc: 'https://via.placeholder.com/600x360',
+            imgSrc: '/t-shirts/5.png',
             isNew: true,
-            readTime: '6 min read',
             title: 'Healthy Living Tips',
             description:
                 'Simple and actionable tips to help you maintain a healthy and balanced lifestyle every day.',
         },
         {
-            imgSrc: 'https://via.placeholder.com/600x360',
+            imgSrc: '/t-shirts/6.png',
             isNew: false,
-            readTime: '3 min read',
             title: 'Travel on a Budget',
             description:
                 'Uncover the secrets to traveling the world without breaking the bank and creating unforgettable memories.',
         },
         {
-            imgSrc: 'https://via.placeholder.com/600x360',
+            imgSrc: '/t-shirts/7.png',
             isNew: true,
-            readTime: '7 min read',
             title: 'Mastering Public Speaking',
             description:
                 'Transform your fear of public speaking into confidence with these practical and proven strategies.',
         },
         {
-            imgSrc: 'https://via.placeholder.com/600x360',
+            imgSrc: '/t-shirts/8.png',
             isNew: false,
-            readTime: '5 min read',
             title: 'The Rise of E-commerce',
             description:
                 'Explore how e-commerce is revolutionizing the retail industry and changing the way consumers shop.',
         },
         {
-            imgSrc: 'https://via.placeholder.com/600x360',
+            imgSrc: '/t-shirts/9.png',
             isNew: true,
-            readTime: '4 min read',
             title: 'Sustainable Living Ideas',
             description:
                 'Incorporate sustainable practices into your daily routine to make a positive impact on the planet.',
         },
         {
-            imgSrc: 'https://via.placeholder.com/600x360',
+            imgSrc: '/t-shirts/10.png',
             isNew: false,
-            readTime: '3 min read',
             title: 'Time Management Strategies',
             description:
                 'Effective strategies to manage your time better and achieve more without feeling overwhelmed.',
         }
     ];
-    
 
     return (
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 p-10 md:px-20">
-            {cardsData.map((card, index) => (
-                <Card key={index} {...card} />
-            ))}
+        <div className="h-full flex w-full justify-center items-center p-2">
+            <div className="grid gap-8 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 p-4 md:p-2 xl:p-5">
+                {cardsData.map((card, index) => (
+                    <Card key={index} {...card} />
+                ))}
+            </div>
         </div>
     );
 };

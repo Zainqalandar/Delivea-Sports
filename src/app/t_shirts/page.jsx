@@ -7,8 +7,8 @@ const BestSellers = () => {
 	return (
 		<>
 			<GlovesBox />
-			<SliderExample />
-			<SliderExample2 />
+			{/* <SliderExample />
+			<SliderExample2 /> */}
 
 		</>
 	);
