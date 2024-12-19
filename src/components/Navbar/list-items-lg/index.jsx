@@ -1,13 +1,8 @@
 import React from 'react';
 import Link from 'next/link';
+import menuItems from '@/config/menuItems';
 
-const menuItems = [
-	{ title: 'Home', href: '/' },
-	{ title: 'T-Shirts', href: '/t_shirts' },	
-	{ title: 'Hoodies', href: '/hoodies' },
-	{ title: "Today's Deals", href: '#' },
-	{ title: 'Sell', href: '#' },
-];
+
 
 const ListItemsLg = () => {
 	return (

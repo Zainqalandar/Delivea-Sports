@@ -50,7 +50,7 @@ const HeroSection = () => {
                         data-carousel-item=""
                     >
                         <Image
-                            src="/banner-images/delivia-banner-new.png"
+                            src="/delivea_hoodies/1.png"
                             alt="Banner"
                             layout="fill"
                             objectFit="cover"
@@ -63,7 +63,7 @@ const HeroSection = () => {
                         data-carousel-item=""
                     >
                         <Image
-                            src="/gloves/g1.jpg"
+                            src="/fighting-gloves/2.png"
                             alt="Banner"
                             layout="fill"
                             objectFit="cover"
@@ -76,7 +76,7 @@ const HeroSection = () => {
                         data-carousel-item=""
                     >
                         <Image
-                            src="/gloves/g2.jpg"
+                            src="/t-shirts/1.png"
                             alt="Banner"
                             layout="fill"
                             objectFit="cover"
@@ -89,7 +89,7 @@ const HeroSection = () => {
                         data-carousel-item=""
                     >
                         <Image
-                            src="/banner-images/t3.jpg"
+                            src="/fighting-gloves/2.png"
                             alt="Banner"
                             layout="fill"
                             objectFit="cover"
@@ -102,7 +102,20 @@ const HeroSection = () => {
                         data-carousel-item=""
                     >
                         <Image
-                            src="/gloves/g3.jpg"
+                            src="/fighting-gloves/2.png"
+                            alt="Banner"
+                            layout="fill"
+                            objectFit="cover"
+                            className="absolute inset-0"
+                        />
+                    </div>
+                    {/* Item 6 */}
+                    <div
+                        className="hidden duration-700 ease-in-out"
+                        data-carousel-item=""
+                    >
+                        <Image
+                            src="/t-shirts/1.png"
                             alt="Banner"
                             layout="fill"
                             objectFit="cover"

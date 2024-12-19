@@ -49,7 +49,7 @@ const Footer = () => {
 									<div className="w-full flex gap-4">
 										<img
 											className="lg:w-[8rem] lg:h-[5rem] md:w-[6rem] md:h-[4rem] xs:w-[8rem] xs:h-[5rem] w-[6rem] h-[3rem] rounded-sm xs:outline xs:outline-[4px]"
-											src="https://images.unsplash.com/photo-1568209865332-a15790aed756?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NzEyNjZ8MHwxfHNlYXJjaHwxMXx8bWljcm9jaGlwfGVufDB8MHx8fDE3MzE4Mjg5MDl8MA&ixlib=rb-4.0.3&q=80&w=1080"
+											src="/new-arrival/1.png"
 											alt="Gallery Image"
 										/>
 										<div className="flex flex-col items-start">
@@ -68,7 +68,7 @@ const Footer = () => {
 									<div className="w-full flex justify-start gap-4">
 										<img
 											className="lg:w-[8rem] lg:h-[5rem] md:w-[6rem] md:h-[4rem] xs:w-[8rem] xs:h-[5rem] w-[6rem] h-[3rem] rounded-sm xs:outline xs:outline-[4px]"
-											src="https://images.unsplash.com/photo-1568209865332-a15790aed756?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NzEyNjZ8MHwxfHNlYXJjaHwxMXx8bWljcm9jaGlwfGVufDB8MHx8fDE3MzE4Mjg5MDl8MA&ixlib=rb-4.0.3&q=80&w=1080"
+											src="/new-arrival/2.png"
 											alt="Gallery Image"
 										/>
 										{/* <img class="lg:w-[8rem] lg:h-[5rem] md:w-[6rem] md:h-[4rem] xs:w-[8rem] xs:h-[5rem] w-[6rem] h-[3rem] rounded-sm xs:outline xs:outline-[4px]" src="https://images.unsplash.com/photo-1536408745983-0f03be6e8a00?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NzEyNjZ8MHwxfHNlYXJjaHw2fHx0ZXNsYSUyMHNvbGFyJTIwcm9vZnxlbnwwfDB8fHwxNzMxODI5MDA0fDA&ixlib=rb-4.0.3&q=80&w=1080" alt="Gallery Image" /> */}
@@ -88,7 +88,7 @@ const Footer = () => {
 									<div className="flex justify-start gap-4">
 										<img
 											className="lg:w-[8rem] lg:h-[5rem] md:w-[6rem] md:h-[4rem] xs:w-[8rem] xs:h-[5rem] w-[6rem] h-[3rem] rounded-sm xs:outline xs:outline-[4px]"
-											src="https://images.unsplash.com/photo-1568209865332-a15790aed756?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NzEyNjZ8MHwxfHNlYXJjaHwxMXx8bWljcm9jaGlwfGVufDB8MHx8fDE3MzE4Mjg5MDl8MA&ixlib=rb-4.0.3&q=80&w=1080"
+											src="/new-arrival/3.png"
 											alt="Gallery Image"
 										/>
 										{/* <img class="lg:w-[8rem] lg:h-[5rem] md:w-[6rem] md:h-[4rem] xs:w-[8rem] xs:h-[5rem] w-[6rem] h-[3rem] rounded-sm xs:outline xs:outline-[4px]" src="https://images.unsplash.com/photo-1684487747720-1ba29cda82f8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NzEyNjZ8MHwxfHNlYXJjaHw3fHxvcGVuJTIwYWl8ZW58MHwwfHx8MTczMTgyOTA4M3ww&ixlib=rb-4.0.3&q=80&w=1080" alt="Gallery Image" /> */}
@@ -110,9 +110,9 @@ const Footer = () => {
 									Newsletter
 								</h4>
 								<p className="text-gray-300 mb-7">
-									Join our subscribers list to get the latest
-									news, updates and special offers directly in
-									your inbox
+									We making custom boxing gear & with custom
+									logos. Give us your dream gloves idea and we
+									will make for you.
 								</p>
 								<div className="w-full flex justify-center items-center rounded bg-gray-700">
 									<input

@@ -1,13 +1,6 @@
+import menuItems from '@/config/menuItems';
 import React from 'react';
 
-const menuItems = [
-  { title: 'Home', href: '#' },
-  { title: 'Best Sellers', href: '#' },
-  { title: 'Gift Ideas', href: '#' },
-  { title: 'Games', href: '#' },
-  { title: 'Electronics', href: '#' },
-  { title: 'Home & Garden', href: '#' },
-];
 
 const ListItemsSm = () => {
   return (
