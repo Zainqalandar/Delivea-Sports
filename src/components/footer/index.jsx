@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaFacebookF, FaInstagram, FaWhatsapp, FaTiktok } from 'react-icons/fa';
 
 const Footer = () => {
 	return (
@@ -12,37 +13,46 @@ const Footer = () => {
 							<div className="mt-4">
 								<div className="flex-1 flex justify-between items-center">
 									<img
-										className="sm:w-[10rem] xs:w-[7rem] z-10"
-										src="https://techakim.com/sam/tg/7268/li/imgs/samlogo2.png"
+										className="w-[4rem]  z-10"
+										src="/logo/delivea-logo4.png"
 										alt="Logo"
 									/>
 								</div>
 								<p className="mt-4">
-									A passionate developer, contributed 36
-									Tailwind components to TailwindFlex, earning
-									second-best contributor status over seven
-									months.
+									We offer a wide range of premium leather
+									products, along with a complete collection
+									of boxing wear to suit all your needs. Our
+									services include custom cut and sew,
+									ensuring tailored designs to meet your
+									specific requirements. We also specialize in
+									creating custom uniforms and branded
+									apparel, complete with packaging and labels.
+									Additionally, we provide embroidery, screen
+									printing, DTF printing, DGT printing, puff
+									printing, and puff embroidery to add a
+									unique and professional touch to your
+									products.
 								</p>
 								{/* Socials */}
 								<div className="flex gap-2 items-center text-2xl text-white mt-6">
-									<div className="flex items-center justify-center p-3 border rounded-full hover:bg-blue-500">
-										<ion-icon name="logo-facebook" />
-									</div>
-									<div className="flex items-center justify-center p-3 border rounded-full hover:bg-pink-500">
-										<ion-icon name="logo-instagram" />
-									</div>
-									<div className="flex items-center justify-center p-3 border rounded-full hover:bg-green-500">
-										<ion-icon name="logo-whatsapp" />
-									</div>
-									<div className="flex items-center justify-center p-3 border rounded-full hover:bg-gray-900">
-										<ion-icon name="logo-tiktok" />
-									</div>
-								</div>
+      <div className="flex items-center justify-center p-3 border rounded-full hover:bg-blue-500">
+        <FaFacebookF />
+      </div>
+      <div className="flex items-center justify-center p-3 border rounded-full hover:bg-pink-500">
+        <FaInstagram />
+      </div>
+      <div className="flex items-center justify-center p-3 border rounded-full hover:bg-green-500">
+        <FaWhatsapp />
+      </div>
+      <div className="flex items-center justify-center p-3 border rounded-full hover:bg-gray-900">
+        <FaTiktok />
+      </div>
+    </div>
 							</div>
 							{/* col - 2 */}
 							<div className="mt-4">
 								<h2 className="text-white text-3xl font-semibold mb-8">
-									Latest News and Blogs
+									Latest Products & Blogs
 								</h2>
 								{/* 1 */}
 								<div className="w-full flex flex-col mt-6">

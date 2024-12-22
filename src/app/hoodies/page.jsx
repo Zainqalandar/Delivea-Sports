@@ -4,7 +4,7 @@ import React from 'react';
 const Hoodies = () => {
     const shirtsData = [
         {
-            imgSrc: '/delivea_hoodies/1.png',
+            imgSrc: '/delivea_hoodies/10.png',
             isNew: true,
             title: 'Adventure Awaits',
             description:
@@ -67,7 +67,7 @@ const Hoodies = () => {
                 'Promote sustainability with this thoughtful design that encourages mindful and green living choices.',
         },
         {
-            imgSrc: '/delivea_hoodies/10.png',
+            imgSrc: '/delivea_hoodies/1.png',
             isNew: false,
             title: 'Maximize Every Moment',
             description:

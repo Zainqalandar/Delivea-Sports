@@ -158,7 +158,7 @@ const Enavbar = () => {
 					<li className="mb-6 hidden max-lg:block">
 						<Link href="#">
 							<img
-								src="https://readymadeui.com/readymadeui-white.svg"
+								src="/logo/delivea-logo4.png"
 								alt="logo"
 								className="w-36"
 							/>
@@ -190,8 +190,8 @@ const Enavbar = () => {
 					</li>
 					<li className="max-lg:border-b max-lg:py-3 px-3">
 						<Link
-							href="#"
-							className="hover:text-yellow-300 text-white text-[15px] font-medium block"
+							href="/gloves"
+							className={`hover:text-yellow-300 text-white ${pathe === "/gloves" && "text-yellow-300"}  text-[15px] font-medium block`}
 						>
 							Gloves
 						</Link>
