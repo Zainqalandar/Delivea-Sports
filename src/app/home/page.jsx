@@ -1,5 +1,4 @@
 import AboutUs from '@/components/about-us';
-import Footer from '@/components/footer';
 import HeroSection from '@/components/hero-section';
 // import MultipleItems from '@/components/new-products';
 import OurLocation from '@/components/our-location';
@@ -18,7 +17,6 @@ const DelvieaSports = () => {
 			<AboutUs />
 			<WhyUs />
 			<OurLocation />
-			<Footer />
 		</>
 	);
 };
